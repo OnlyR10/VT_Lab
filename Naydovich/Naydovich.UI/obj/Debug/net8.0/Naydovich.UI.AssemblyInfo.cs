@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naydovich.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9a8d9e087084ce58c560b8116f823eaf026bc42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d184e0edb88633e1812f8416881a1a7257a21e6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naydovich.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naydovich.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

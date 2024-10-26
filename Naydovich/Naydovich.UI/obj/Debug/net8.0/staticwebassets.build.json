@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mz1HhcYU52yV1G/uEE++VwghcsSycPTNeTTN8MPH0f4=",
+  "Hash": "67qjtaYhLV4kPDq0ZqHlSQPJVKdkduDVIgcqbJWrV0I=",
   "Source": "Naydovich.UI",
   "BasePath": "_content/Naydovich.UI",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Naydovich.UI.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\css\\main.css",
+      "SourceId": "Naydovich.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\",
+      "BasePath": "_content/Naydovich.UI",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    },
+    {
       "Identity": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\css\\site.css",
       "SourceId": "Naydovich.UI",
       "SourceType": "Discovered",
@@ -1231,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\user-avatar.svg",
+      "SourceId": "Naydovich.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\",
+      "BasePath": "_content/Naydovich.UI",
+      "RelativePath": "images/user-avatar.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user-avatar.svg"
     },
     {
       "Identity": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\js\\site.js",

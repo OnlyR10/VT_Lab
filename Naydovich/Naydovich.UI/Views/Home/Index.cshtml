@@ -9,13 +9,15 @@
         <title>Index</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/main.css" />
+        <link rel="stylesheet" href="~/css/form.css" />
         <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
     </head>
     <body>
         <header>
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">WebLabsV03</a>
+                <a class="badge" href="https://github.com/OnlyR10/VT_Lab" target="_blank">Naydovich</a>
 
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Лб 1</a>
@@ -31,13 +33,13 @@
                     <div class="dropdown ms-4 nav-color">
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                             User@gmail.com
-                            <img src="images/default-profile-picture.png" width="30" alt="User" class="rounded nav-color" />
+                            <img src="images/user-avatar.svg" width="30" alt="User" class="rounded nav-color" />
                         </button>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
                                 <span class="dropdown-item-text">
-                                    <img src="images/default-profile-picture.png" width="50" alt="User" class="rounded" />
+                                    <img src="images/user-avatar.svg" width="50" alt="User" class="rounded" />
 
                                     user@gmail.com
                                 </span>
@@ -59,12 +61,94 @@
         </header>
 
         <main class="container">
-            Содержимое страницы
+            <h1>Лабораторная работа 1</h1>
+
+            <h2>Список</h2>
+
+            <ol type="A">
+                <li>элемент 0 списка</li>
+                <li>элемент 1 списка</li>
+                <li>элемент 2 списка</li>
+                <li>элемент 3 списка</li>
+                <li>элемент 4 списка</li>
+            </ol>
+
+            <div class="horizontal-line"></div>
+
+            <h2>Форма</h2>
+
+            <form action="#" method="post">
+                <div class="row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1" name="cb1">
+                            <label class="form-check-label" for="gridCheck1">
+                               Чек-бокс 1
+                            </label>
+                        </div>
+                         <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck2" name="cb2">
+                            <label class="form-check-label" for="gridCheck2">
+                                Чек-бокс 2
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                               
+                <div class="d-flex gap-3 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="r1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                                Радио-1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="r2">
+                        <label class="form-check-label" for="gridRadios2">
+                                Радио-2
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="r3">
+                        <label class="form-check-label" for="gridRadios3">
+                            Радио-3
+                        </label>
+                    </div>
+                </div>
+             
+
+                <div class="row">
+                    <label for="inputLogin3" class="col-sm-2 col-form-label">Логин:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputLogin3" name="login" placeholder="Введите имя">
+                    </div>
+                </div>
+                <div class="row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль:</label>
+                    <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Введите пароль">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-info">Отправить</button>
+            </form>
         </main>
 
         <footer>
             <div class="container">
-                <span class="nav-color">Подвал страницы</span>
+                <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link" href="http://www.facebook.com">
+                            <i class="fa-brands fa-facebook-f fa-2x"></i>
+                        </a>
+                        <a class="nav-item nav-link" href="http://www.vk.com">
+                            <i class="fa-brands fa-vk fa-2x"></i>
+                        </a>
+                        <a class="nav-item nav-link" href="http://www.twitter.com">
+                            <i class="fa-brands fa-twitter fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </footer>
 

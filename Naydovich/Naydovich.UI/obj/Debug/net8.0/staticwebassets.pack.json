@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Naydovich.UI.bundle.scp.css"
     },
     {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\user-avatar.svg",
+      "PackagePath": "staticwebassets\\images\\user-avatar.svg"
     },
     {
       "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\js\\site.js",
