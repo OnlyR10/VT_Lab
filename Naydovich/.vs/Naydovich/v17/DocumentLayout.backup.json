@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Studies\\WebTech\\Lab\\Naydovich\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\shared\\components\\cart\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Naydovich.UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwE8AAAAoAAAAAAAAAA==",
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T18:01:04.126Z",
+              "WhenOpened": "2024-11-11T17:03:08.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Views\\Shared\\Components\\Cart\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T17:02:56.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_UserInfoPartial.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T17:00:32.123Z",
               "EditorCaption": ""
             }
           ]
