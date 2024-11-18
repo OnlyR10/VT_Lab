@@ -19,7 +19,7 @@ public class DbInit
                 EmailConfirmed = true
             };
 
-            await userManager.CreateAsync(user, "superAdmin");
+            await userManager.CreateAsync(user, "Admin123!");
             await userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "admin"));
         }
     }
