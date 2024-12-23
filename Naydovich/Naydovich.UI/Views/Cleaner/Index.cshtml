@@ -1,0 +1,114 @@
+﻿@using Naydovich.Domain.Models
+@using Naydovich.Domain.Entities
+@model CleanerListModel<Cleaner>
+
+@{
+    ViewData["Title"] = "Index";
+    var request = ViewContext.HttpContext.Request;
+    var returnUrl = request.Path + request.QueryString.ToUriComponent();
+    var categories = ViewData["categories"] as IEnumerable<Category>;
+    string? category = request.Query["category"].ToString();
+    int prev = Model.CurrentPage == 1? 1: Model.CurrentPage - 1;
+    int next = Model.CurrentPage == Model.TotalPages? Model.TotalPages: Model.CurrentPage + 1;
+}
+
+<h1>Список активов</h1>
+<div class="col-2 border-2">
+    <ul class="nav ">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                @ViewData["currentCategory"]
+            </a>
+
+            <ul id="dropdownMenu" class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" asp-controller="cleaner" asp-route-category="Все">Все</a>
+                </li>
+                
+                <li>
+                    <a class="dropdown-item" asp-controller="cleaner" asp-route-category="floor">Напольные пылесосы</a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" asp-controller="cleaner" asp-route-category="handheld">Ручные пылесосы</a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" asp-controller="cleaner" asp-route-category="robot">Роботы-пылесосы</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+@if (Model != null)
+{
+    <div class="card-group">
+        @foreach (var item in Model.Items)
+        {
+            <partial name="_CleanerItemPartial" model="@item" />
+        }
+    </div>
+}
+
+@* <div class="card-group">
+    @foreach (var item in Model.Items)
+    {
+        <div class="col-4 p-4">
+            <div class="card border-dark m-2">
+                <img class="card-img-top" src="@item.Photo" alt="No image available" />
+
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+
+                    <p class="card-text">@item.Description</p>
+
+                    <h5>
+                        <span class="badge bg-secondary">Инвентарный номер: @item.InvNumber</span>
+                    </h5>
+
+                    <h5>
+                        <span class="badge bg-secondary">Стоимость: @item.Price</span>
+                    </h5>
+                </div>
+
+                <div class="card-footer text-center">
+                    <a class="btn btn-outline-primary" asp-action="add" asp-controller="cart" asp-route-id="@item.Id" asp-route-returnurl="@returnUrl">
+                        Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+             </div>
+        </div>
+    }
+</div> *@
+
+<pager current-page="@Model.CurrentPage" total-pages="@Model.TotalPages"category="@category" />
+
+@* <div class="row">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item @(prev==Model.CurrentPage ? "disabled":"")">
+                <a class="page-link" asp-controller="Cleaner" asp-action="Index" asp-route-pageno="@prev" asp-route-category="@category" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i==Model.CurrentPage?"active":"")">
+                        <a class="page-link" asp-controller="Cleaner" asp-action="Index" asp-route-pageno="@i" asp-route-category="@category">
+                            @i
+                        </a>
+                    </li>
+            }
+
+            <li class="page-item @(next==Model.CurrentPage ?"disabled":"")">
+                <a class="page-link" asp-action="Index" asp-route-pageno="@next" asp-route-category="@category" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>  *@
+
+<h2 class="text-warning">@ViewData["Error"]</h2>

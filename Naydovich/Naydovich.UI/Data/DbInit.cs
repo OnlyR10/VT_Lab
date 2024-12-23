@@ -14,13 +14,22 @@ public class DbInit
         {
             user = new ApplicationUser
             {
-                UserName = "admin@gmail.com",
                 Email = "admin@gmail.com",
+                UserName = "admin@gmail.com",
                 EmailConfirmed = true
             };
 
-            await userManager.CreateAsync(user, "Admin123!");
-            await userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "admin"));
+            var createResult = await userManager.CreateAsync(user, "123456");
+            if (!createResult.Succeeded)
+            {
+                throw new Exception($"Ошибка создания пользователя: {string.Join(", ", createResult.Errors.Select(e => e.Description))}");
+            }
+
+            var claimResult = await userManager.AddClaimAsync(user, new Claim(ClaimTypes.Role, "admin"));
+            if (!claimResult.Succeeded)
+            {
+                throw new Exception($"Ошибка добавления клейма: {string.Join(", ", claimResult.Errors.Select(e => e.Description))}");
+            }
         }
     }
 }

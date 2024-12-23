@@ -50,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Studies/WebTech/Lab/Naydovich/Naydovich.UI/Views/Cleaner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlYW5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Studies/WebTech/Lab/Naydovich/Naydovich.UI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Studies/WebTech/Lab/Naydovich/Naydovich.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Studies/WebTech/Lab/Naydovich/Naydovich.UI/Views/Shared/_CleanerItemPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DbGVhbmVySXRlbVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Studies/WebTech/Lab/Naydovich/Naydovich.UI/Views/Shared/_LoginPartial.cshtml]

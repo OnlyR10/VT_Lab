@@ -1,0 +1,12 @@
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\bin\Debug\net8.0\Naydovich.Domain.deps.json
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\bin\Debug\net8.0\Naydovich.Domain.dll
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\bin\Debug\net8.0\Naydovich.Domain.pdb
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.AssemblyInfoInputs.cache
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.AssemblyInfo.cs
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.csproj.CoreCompileInputs.cache
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.sourcelink.json
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.dll
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\refint\Naydovich.Domain.dll
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\Naydovich.Domain.pdb
+D:\Studies\WebTech\Lab\Naydovich\Naydovich.Domain\obj\Debug\net8.0\ref\Naydovich.Domain.dll

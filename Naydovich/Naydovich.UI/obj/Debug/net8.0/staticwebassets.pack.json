@@ -17,6 +17,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\FloorCleanerHotpoint.png",
+      "PackagePath": "staticwebassets\\images\\FloorCleanerHotpoint.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\FloorCleanerMiele.png",
+      "PackagePath": "staticwebassets\\images\\FloorCleanerMiele.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\FloorCleanerZanussi.png",
+      "PackagePath": "staticwebassets\\images\\FloorCleanerZanussi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\HandheldCleanerPhilips.png",
+      "PackagePath": "staticwebassets\\images\\HandheldCleanerPhilips.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\HandheldCleanerScarlett.png",
+      "PackagePath": "staticwebassets\\images\\HandheldCleanerScarlett.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\HandheldCleanerXiaomi.png",
+      "PackagePath": "staticwebassets\\images\\HandheldCleanerXiaomi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\RobotCleanerDream.png",
+      "PackagePath": "staticwebassets\\images\\RobotCleanerDream.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\RobotCleanerKarcher.png",
+      "PackagePath": "staticwebassets\\images\\RobotCleanerKarcher.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\RobotCleanerXiaomi.png",
+      "PackagePath": "staticwebassets\\images\\RobotCleanerXiaomi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\images\\default-profile-picture.png"
+    },
+    {
       "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\wwwroot\\images\\user-avatar.svg",
       "PackagePath": "staticwebassets\\images\\user-avatar.svg"
     },

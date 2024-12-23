@@ -1,4 +1,5 @@
-﻿@{
+﻿@using Naydovich.UI.ViewModels
+@{
     ViewBag.Title = "Index";
 
     var items = new List<string> { "элемент 0 списка", "элемент 1 списка", "элемент 2 списка", "элемент 3 списка", "элемент 4 списка" };
@@ -8,83 +9,90 @@
 
 @model IndexViewModel
 
-<main class="container">
-    <h1>@ViewData["Message"]</h1>
+  @if (User.Identity.IsAuthenticated)
+{
+     <main>
+        <h1>@ViewData["Message"]</h1>
 
-    <h2>Список</h2>
+        <h2>Список</h2>
 
-    <ol type="A">
-        @for (int i = 0; i < items.Count; i++)
-        {
-            <li>@items[i]</li>
-        }
-    </ol>
+        <ol type="A">
+            @for (int i = 0; i < items.Count; i++)
+            {
+                <li>@items[i]</li>
+            }
+        </ol>
 
-    <div class="horizontal-line"></div>
+        <div class="horizontal-line"></div>
 
-    <h2>Форма</h2>
+        <h2>Форма</h2>
 
-    <form role="form" method="post" asp-action="index">
-        <div class="row">
-            <div class="col-sm-10 offset-sm-2">  
-                <select asp-items="Model.Items" class="form-select" name="select"></select>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-10 offset-sm-2">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck1" name="cb1">
-                    <label class="form-check-label" for="gridCheck1">
-                        Чек-бокс 1
-                    </label>
+        <form role="form" method="post" asp-action="index">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-2">
+                    <select asp-items="Model.Items" class="form-select" name="select"></select>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 offset-sm-2">
                     <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck2" name="cb2">
-                    <label class="form-check-label" for="gridCheck2">
-                        Чек-бокс 2
+                        <input class="form-check-input" type="checkbox" id="gridCheck1" name="cb1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Чек-бокс 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2" name="cb2">
+                        <label class="form-check-label" for="gridCheck2">
+                            Чек-бокс 2
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-3 offset-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="r1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Радио-1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="r2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Радио-2
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="r3">
+                    <label class="form-check-label" for="gridRadios3">
+                        Радио-3
                     </label>
                 </div>
             </div>
-        </div>
-                               
-        <div class="d-flex gap-3 offset-sm-2">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="r1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                        Радио-1
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="r2">
-                <label class="form-check-label" for="gridRadios2">
-                        Радио-2
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="r3">
-                <label class="form-check-label" for="gridRadios3">
-                    Радио-3
-                </label>
-            </div>
-        </div>
-             
 
-        <div class="row">
-            <label for="inputLogin3" class="col-sm-2 col-form-label">Логин:</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="inputLogin3" name="login" placeholder="Введите имя">
-            </div>
-        </div>
-        <div class="row">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль:</label>
-            <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Введите пароль">
-            </div>
-        </div>
 
-        <button type="submit" class="btn btn-info">Отправить</button>
-    </form>
-</main>       
+            <div class="row">
+                <label for="inputLogin3" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputLogin3" name="login" placeholder="Введите имя">
+                </div>
+            </div>
+            <div class="row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Пароль:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Введите пароль">
+                </div>
+            </div>
 
- 
+            <button type="submit" class="btn btn-info">Отправить</button>
+        </form>
+    </main>
+
+}
+else
+{
+    <p style="margin-top: 20px">Необходимо войти в свой профиль или зарегестрироваться</p>
+}
+

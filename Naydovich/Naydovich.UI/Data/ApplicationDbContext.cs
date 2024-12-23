@@ -9,5 +9,6 @@ namespace Naydovich.UI.Data
             : base(options)
         {
         }
+        public DbSet<Naydovich.Domain.Entities.Cleaner> Cleaner { get; set; } = default!;
     }
 }

@@ -1,5 +1,5 @@
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using Naydovich.Services;
 using Naydovich.UI.Data;
 using System.Security.Claims;
 
@@ -12,19 +12,22 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 {
-    options.Password.RequireDigit = false;
+    options.Password.RequireDigit = true;
+    options.Password.RequiredLength = 6;
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
-    options.Password.RequiredLength = 1;
-    options.SignIn.RequireConfirmedAccount = true;
+    options.Password.RequireLowercase = false;
 }).AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("admin", policy =>
         policy.RequireClaim(ClaimTypes.Role, "admin"));
 });
-builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
+
+//builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
+builder.Services.AddTransient<ICleanerService, MemoryCleanerService>();
+builder.Services.AddTransient<ICategoryService, MemoryCategoryService>();
 
 
 var app = builder.Build();

@@ -2,23 +2,17 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.Extensions.Logging;
 using Naydovich.UI.Data;
+using System.ComponentModel.DataAnnotations;
+using System.Text;
+using System.Text.Encodings.Web;
 
 namespace Naydovich.UI.Areas.Identity.Pages.Account
 {
@@ -71,6 +65,7 @@ namespace Naydovich.UI.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+            public IFormFile Avatar { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -117,6 +112,16 @@ namespace Naydovich.UI.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                if (Input.Avatar != null)
+                {
+                    user.Avatar = new byte[Input.Avatar.Length];
+                    await Input.Avatar.OpenReadStream().ReadAsync(user.Avatar);
+                    var extProvider = new FileExtensionContentTypeProvider();
+                    var ext = Path.GetExtension(Input.Avatar.FileName);
+                    user.MimeType = extProvider.Mappings[ext];
+                }
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)

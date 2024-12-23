@@ -3061,6 +3061,16 @@
             "rid": "win"
           }
         }
+      },
+      "Naydovich.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Naydovich.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Naydovich.Domain.dll": {}
+        }
       }
     }
   },
@@ -8344,6 +8354,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Naydovich.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Naydovich.Domain/Naydovich.Domain.csproj",
+      "msbuildProject": "../Naydovich.Domain/Naydovich.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8354,7 +8369,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Naydovich.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8389,7 +8405,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Naydovich.Domain.csproj": {
+              "projectPath": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Naydovich.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
