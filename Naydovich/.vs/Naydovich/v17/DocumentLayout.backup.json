@@ -17,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 469,
+          "DockedWidth": 575,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -40,9 +40,9 @@
               "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
               "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
               "RelativeToolTip": "Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:01:33.063Z",
+              "WhenOpened": "2024-12-23T19:46:45.267Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +53,9 @@
               "RelativeDocumentMoniker": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
               "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\MemoryCleanerService.cs",
               "RelativeToolTip": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAAAIkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:01:02.093Z",
+              "WhenOpened": "2024-12-23T19:46:32.338Z",
               "EditorCaption": ""
             }
           ]

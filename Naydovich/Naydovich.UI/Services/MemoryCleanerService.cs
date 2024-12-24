@@ -30,7 +30,8 @@ namespace Naydovich.Services
                     Power = 200,
                     Image = "/images/FloorCleanerHotpoint.png",
                     CategoryId = 1,
-                    Category = _categories.Find(c=>c.NormalizedName.Equals("floor"))},
+                    Category = _categories.Find(c=>c.NormalizedName.Equals("floor"))
+                },
                     new Cleaner
                 {
                     Id = 2,
@@ -111,6 +112,36 @@ namespace Naydovich.Services
                     CategoryId = 3,
                     Category = _categories.Find(c => c.NormalizedName.Equals("robot")),
                 },
+                //new Cleaner
+                //{
+                //    Id = 10,
+                //    Name = "Dream",
+                //    Description = "Робот-пылесос D9 Max Gen 2",
+                //    Power = 75,
+                //    Image = "/images/RobotCleanerDream.png",
+                //    CategoryId = 1,
+                //    Category = _categories.Find(c => c.NormalizedName.Equals("floor")),
+                //},
+                //new Cleaner
+                //{
+                //    Id = 11,
+                //    Name = "Karcher",
+                //    Description = "Робот-пылесос RCV 3",
+                //    Power = 60,
+                //    Image = "/images/RobotCleanerKarcher.png",
+                //    CategoryId = 2,
+                //    Category = _categories.Find(c => c.NormalizedName.Equals("handheld")),
+                //},
+                //new Cleaner
+                //{
+                //    Id = 12,
+                //    Name = "Xiaomi",
+                //    Description = "Робот-пылесос Vacuum S20+",
+                //    Power = 55,
+                //    Image = "/images/RobotCleanerXiaomi.png",
+                //    CategoryId = 3,
+                //    Category = _categories.Find(c => c.NormalizedName.Equals("robot")),
+                //},
             };
         }
 
@@ -135,8 +166,8 @@ namespace Naydovich.Services
             // получить данные страницы
             var listData = new CleanerListModel<Cleaner>()
             {
-                //Items = data.Skip((pageNo - 1) * pageSize).Take(pageSize).ToList(),
-                Items = data.ToList(),
+                Items = data.Skip((pageNo - 1) * pageSize).Take(pageSize).ToList(),
+                //Items = data.ToList(),
                 CurrentPage = pageNo,
                 TotalPages = totalPages
             };

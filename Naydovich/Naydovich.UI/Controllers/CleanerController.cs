@@ -30,6 +30,7 @@ namespace Naydovich.UI.Controllers
 
             if (!productResponse.Success)
                 ViewData["Error"] = productResponse.ErrorMessage;
+
             return View(productResponse.Data);
         }
     }

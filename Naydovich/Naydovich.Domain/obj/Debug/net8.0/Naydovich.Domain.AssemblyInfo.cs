@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naydovich.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7af8fed736b10184a2e173423246a72d2821bd13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a06d76b550c41c833af8900a72aaa8bd86667711")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naydovich.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naydovich.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
