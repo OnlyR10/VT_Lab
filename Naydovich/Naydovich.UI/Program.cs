@@ -29,6 +29,8 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddTransient<ICleanerService, MemoryCleanerService>();
 builder.Services.AddTransient<ICategoryService, MemoryCategoryService>();
 
+builder.Services.AddHttpContextAccessor();
+
 
 var app = builder.Build();
 
@@ -58,7 +60,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    //pattern: "{controller=Home}/{action=Index}/{id?}");
     pattern: "{controller=Home}/{action=Index}/{category?}");
 app.MapRazorPages();
 

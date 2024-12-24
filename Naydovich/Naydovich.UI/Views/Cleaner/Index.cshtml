@@ -7,13 +7,7 @@
     var request = ViewContext.HttpContext.Request;
     var returnUrl = request.Path + request.QueryString.ToUriComponent();
     var categories = ViewData["categories"] as IEnumerable<Category>;
-    /* string? category = request.Query["category"].ToString(); */
-    string[]? path = request.Path.ToUriComponent().Split("/");
-    string? category = "";
-    if(path.Length == 3)
-    {
-        category = path[2];
-    }
+    string? category = request.RouteValues["category"]?.ToString();
     int prev = Model.CurrentPage == 1 ? 1 : Model.CurrentPage - 1;
     int next = Model.CurrentPage == Model.TotalPages ? Model.TotalPages : Model.CurrentPage + 1;
 }

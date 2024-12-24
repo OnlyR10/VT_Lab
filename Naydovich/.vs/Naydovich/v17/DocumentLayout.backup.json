@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Studies\\WebTech\\Lab\\Naydovich\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\memorycleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\memorycleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\cleaner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\cleaner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\views\\shared\\_userinfopartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\taghelpers\\imagetaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\taghelpers\\imagetaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 575,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,28 +46,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
-              "RelativeToolTip": "Naydovich.UI\\Views\\Cleaner\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T19:46:45.267Z",
+              "WhenOpened": "2024-12-24T18:35:29.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MemoryCleanerService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAgwIgAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ImageTagHelper.cs",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\TagHelpers\\ImageTagHelper.cs",
+              "RelativeDocumentMoniker": "Naydovich.UI\\TagHelpers\\ImageTagHelper.cs",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\TagHelpers\\ImageTagHelper.cs",
+              "RelativeToolTip": "Naydovich.UI\\TagHelpers\\ImageTagHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T19:46:32.338Z",
+              "WhenOpened": "2024-12-24T17:54:50.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T17:49:17.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Controllers\\ImageController.cs",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Naydovich.UI\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:47:14.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_UserInfoPartial.cshtml",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "RelativeToolTip": "Naydovich.UI\\Views\\Shared\\_UserInfoPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwA0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T17:40:35.713Z",
               "EditorCaption": ""
             }
           ]
