@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Naydovich.Services;
+using Naydovich.UI.Services;
 
 namespace Naydovich.UI.Controllers
 {

@@ -1,7 +1,7 @@
 ﻿using Naydovich.Domain.Entities;
 using Naydovich.Domain.Models;
 
-namespace Naydovich.Services
+namespace Naydovich.UI.Services
 {
     public interface ICategoryService
     {

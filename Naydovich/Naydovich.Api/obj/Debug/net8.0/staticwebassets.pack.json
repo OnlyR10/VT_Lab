@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\FloorCleanerHotpoint.png",
+      "PackagePath": "staticwebassets\\Images\\FloorCleanerHotpoint.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\FloorCleanerMiele.png",
+      "PackagePath": "staticwebassets\\Images\\FloorCleanerMiele.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\FloorCleanerZanussi.png",
+      "PackagePath": "staticwebassets\\Images\\FloorCleanerZanussi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\HandheldCleanerPhilips.png",
+      "PackagePath": "staticwebassets\\Images\\HandheldCleanerPhilips.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\HandheldCleanerScarlett.png",
+      "PackagePath": "staticwebassets\\Images\\HandheldCleanerScarlett.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\HandheldCleanerXiaomi.png",
+      "PackagePath": "staticwebassets\\Images\\HandheldCleanerXiaomi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\RobotCleanerDream.png",
+      "PackagePath": "staticwebassets\\Images\\RobotCleanerDream.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\RobotCleanerKarcher.png",
+      "PackagePath": "staticwebassets\\Images\\RobotCleanerKarcher.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\RobotCleanerXiaomi.png",
+      "PackagePath": "staticwebassets\\Images\\RobotCleanerXiaomi.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\default-profile-picture.png",
+      "PackagePath": "staticwebassets\\Images\\default-profile-picture.png"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\wwwroot\\Images\\user-avatar.svg",
+      "PackagePath": "staticwebassets\\Images\\user-avatar.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Naydovich.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Naydovich.Api.props",
+      "PackagePath": "build\\Naydovich.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Naydovich.Api.props",
+      "PackagePath": "buildMultiTargeting\\Naydovich.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Naydovich.Api.props",
+      "PackagePath": "buildTransitive\\Naydovich.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

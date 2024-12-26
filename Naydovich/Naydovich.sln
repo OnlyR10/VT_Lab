@@ -8,7 +8,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naydovich.UI", "Naydovich.U
 		{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F} = {FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naydovich.Domain", "Naydovich.Domain\Naydovich.Domain.csproj", "{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Naydovich.Domain", "Naydovich.Domain\Naydovich.Domain.csproj", "{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naydovich.Api", "Naydovich.Api\Naydovich.Api.csproj", "{9108B156-14B7-4733-8CF5-0E19130E3FCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9108B156-14B7-4733-8CF5-0E19130E3FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9108B156-14B7-4733-8CF5-0E19130E3FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9108B156-14B7-4733-8CF5-0E19130E3FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9108B156-14B7-4733-8CF5-0E19130E3FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

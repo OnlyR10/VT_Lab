@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.TagHelpers;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using System.Text.Encodings.Web;
 
-namespace Naydovich.TagHelpers
+namespace Naydovich.UI.TagHelpers
 {
     public class PagerTagHelper(LinkGenerator linkGenerator, IHttpContextAccessor httpContextAccessor) : TagHelper
     {
@@ -42,7 +42,7 @@ namespace Naydovich.TagHelpers
             #region Разметка кнопок переключения страниц
             for (var index = 1; index <= TotalPages; index++)
             {
-                ul.InnerHtml.AppendHtml(CreateListItem(Category, index, String.Empty));
+                ul.InnerHtml.AppendHtml(CreateListItem(Category, index, string.Empty));
             }
             #endregion Разметка кнопок переключения страниц
             #region Кнопка следующей страницы
@@ -64,7 +64,7 @@ namespace Naydovich.TagHelpers
             var li = new TagBuilder("li");
             li.AddCssClass("page-item");
 
-            if (pageNo == CurrentPage && String.IsNullOrEmpty(innerText))
+            if (pageNo == CurrentPage && string.IsNullOrEmpty(innerText))
                 li.AddCssClass("active");
 
             var a = new TagBuilder("a");
@@ -73,7 +73,7 @@ namespace Naydovich.TagHelpers
             var routeData = new
             {
                 pageno = pageNo,
-                category = category
+                category
             };
 
             string url;
@@ -81,11 +81,11 @@ namespace Naydovich.TagHelpers
             if (Admin)
                 url = linkGenerator.GetPathByPage(httpContextAccessor.HttpContext, page: "./Index", values: routeData);
             else
-                url = linkGenerator.GetPathByAction("index", "asset", routeData);
+                url = linkGenerator.GetPathByAction("index", "cleaner", routeData);
 
             a.Attributes.Add("href", url);
 
-            var text = String.IsNullOrEmpty(innerText) ? pageNo.ToString() : innerText;
+            var text = string.IsNullOrEmpty(innerText) ? pageNo.ToString() : innerText;
 
             a.InnerHtml.AppendHtml(text);
             li.InnerHtml.AppendHtml(a);

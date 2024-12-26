@@ -1,7 +1,7 @@
 ﻿using Naydovich.Domain.Entities;
 using Naydovich.Domain.Models;
 
-namespace Naydovich.Services
+namespace Naydovich.UI.Services
 {
     public interface ICleanerService
     {
@@ -11,6 +11,9 @@ namespace Naydovich.Services
         /// <param name="categoryNormalizedName">нормализованное имя категории для фильтрации</param>
         /// <param name="pageNo">номер страницы списка</param>
         /// <returns></returns>
+        /// 
+        public Task<ResponseData<Cleaner>> CreateCleanerAsync(Cleaner product, IFormFile? formFile);
+
         public Task<ResponseData<CleanerListModel<Cleaner>>> GetProductListAsync(string? categoryNormalizedName, int pageNo = 1);
         /// <summary>
         /// Поиск объекта по Id

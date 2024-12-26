@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Naydovich.Services;
 using Naydovich.UI.Data;
+using Naydovich.UI.Services;
 using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +19,9 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     options.Password.RequireLowercase = false;
 }).AddEntityFrameworkStores<ApplicationDbContext>();
 
+builder.Services.AddHttpClient<ICategoryService, ApiCategoryService>(opt => opt.BaseAddress = new Uri("https://localhost:7002/api/Categories"));
+builder.Services.AddHttpClient<ICleanerService, ApiCleanerService>(opt => opt.BaseAddress = new Uri("https://localhost:7002/api/Cleaners"));
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("admin", policy =>
@@ -26,8 +29,8 @@ builder.Services.AddAuthorization(options =>
 });
 
 //builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
-builder.Services.AddTransient<ICleanerService, MemoryCleanerService>();
-builder.Services.AddTransient<ICategoryService, MemoryCategoryService>();
+//builder.Services.AddTransient<ICleanerService, MemoryCleanerService>();
+//builder.Services.AddTransient<ICategoryService, MemoryCategoryService>();
 
 builder.Services.AddHttpContextAccessor();
 
