@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "D:\\Studies\\WebTech\\Lab\\Naydovich\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|solutionrelative:naydovich.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|solutionrelative:naydovich.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\apicleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\apicleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\apicategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\apicategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Naydovich.Api\\Data\\DbInitializer.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\DbInitializer.cs",
-              "RelativeToolTip": "Naydovich.Api\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Naydovich.UI\\Program.cs",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Program.cs",
+              "RelativeToolTip": "Naydovich.UI\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:50:08.012Z",
+              "WhenOpened": "2024-12-26T17:53:30.876Z",
               "EditorCaption": ""
             },
             {
@@ -68,103 +40,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\appsettings.json",
-              "RelativeDocumentMoniker": "Naydovich.UI\\appsettings.json",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\appsettings.json",
-              "RelativeToolTip": "Naydovich.UI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T17:45:42.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "libman.json",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\libman.json",
-              "RelativeDocumentMoniker": "Naydovich.UI\\libman.json",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\libman.json",
-              "RelativeToolTip": "Naydovich.UI\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T17:45:40.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Program.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Program.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Program.cs",
-              "RelativeToolTip": "Naydovich.UI\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:44:38.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApiCleanerService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:44:34.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApiCategoryService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCategoryService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\ApiCategoryService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCategoryService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\ApiCategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:44:32.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Naydovich.UI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T17:44:26.025Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 575,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Naydovich.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Naydovich.Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T17:44:00.497Z",
-              "EditorCaption": ""
             }
           ]
         }
