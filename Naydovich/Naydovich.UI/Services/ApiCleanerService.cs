@@ -27,56 +27,43 @@ namespace Naydovich.UI.Services
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase
             };
-
             // Подготовить объект, возвращаемый методом
             var responseData = new ResponseData<Cleaner>();
-
             // Послать запрос к API для сохранения объекта
             var response = await httpClient.PostAsJsonAsync(httpClient.BaseAddress, product);
-
             if (!response.IsSuccessStatusCode)
             {
                 responseData.Success = false;
                 responseData.ErrorMessage = $"Не удалось создать объект:{response.StatusCode}";
-
                 return responseData;
             }
-
             // Если файл изображения передан клиентом
             if (formFile != null)
             {
                 // получить созданный объект из ответа Api-сервиса
                 var cleaner = await response.Content.ReadFromJsonAsync<Cleaner>();
-
                 // создать объект запроса
                 var request = new HttpRequestMessage
                 {
                     Method = HttpMethod.Post,
                     RequestUri = new Uri($"{httpClient.BaseAddress.AbsoluteUri}/{cleaner.Id}")
                 };
-
                 // Создать контент типа multipart form-data
                 var content = new MultipartFormDataContent();
-
                 // создать потоковый контент из переданного файла
                 var streamContent = new StreamContent(formFile.OpenReadStream());
-
                 // добавить потоковый контент в общий контент по именем "image"
                 content.Add(streamContent, "image", formFile.FileName);
-
                 // поместить контент в запрос
                 request.Content = content;
-
                 // послать запрос к Api-сервису
                 response = await httpClient.SendAsync(request);
-
                 if (!response.IsSuccessStatusCode)
                 {
                     responseData.Success = false;
                     responseData.ErrorMessage = $"Не удалось сохранить изображение:{response.StatusCode}";
                 }
             }
-
             return responseData;
         }
 

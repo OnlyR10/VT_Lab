@@ -1,0 +1,67 @@
+@page
+@model Naydovich.UI.Areas_Admin_Pages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Cleaner</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cleaner.Name" class="control-label"></label>
+                <input asp-for="Cleaner.Name" class="form-control" />
+                <span asp-validation-for="Cleaner.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cleaner.Description" class="control-label"></label>
+                <input asp-for="Cleaner.Description" class="form-control" />
+                <span asp-validation-for="Cleaner.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cleaner.Power" class="control-label"></label>
+                <input asp-for="Cleaner.Power" class="form-control" />
+                <span asp-validation-for="Cleaner.Power" class="text-danger"></span>
+            </div>
+           @*  <div class="form-group">
+                <label asp-for="Cleaner.Image" class="control-label"></label>
+                <input asp-for="Cleaner.Image" class="form-control" />
+                <span asp-validation-for="Cleaner.Image" class="text-danger"></span>
+            </div> *@
+            @* <div class="form-group">
+                <label asp-for="Cleaner.CategoryId" class="control-label"></label>
+                <select asp-for="Cleaner.CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div> *@
+            <div class="form-group">
+                <input type="hidden" asp-for="Cleaner.Category" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Cleaner.Category" class="control-label"></label>
+                <select asp-for="Cleaner.Category" asp-items="@((SelectList)ViewData["CategoryId"])" class="form-control"></select>
+                <span asp-validation-for="Cleaner.Category" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Image" class="form-label">Изображение</label>
+                <input asp-for="Image" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

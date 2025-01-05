@@ -13,7 +13,7 @@ namespace Naydovich.UI.Services
         /// <returns></returns>
         /// 
         public Task<ResponseData<Cleaner>> CreateCleanerAsync(Cleaner product, IFormFile? formFile);
-
+        //Task GetCleanerListAsync(object value1, int value2);
         public Task<ResponseData<CleanerListModel<Cleaner>>> GetProductListAsync(string? categoryNormalizedName, int pageNo = 1);
         /// <summary>
         /// Поиск объекта по Id
@@ -31,7 +31,7 @@ namespace Naydovich.UI.Services
         /// <param name="formFile">Файл изображения</param>
         /// <returns></returns>
         /// 
-        //public Task UpdateProductAsync(int id, Cleaner product, IFormFile? formFile);
+        //public Task UpdateProductAsync(int id, Cleaner cleaner, IFormFile? formFile);
 
         /// <summary>
         /// Удаление объекта

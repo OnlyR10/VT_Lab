@@ -11,10 +11,44 @@ namespace Naydovich.Api.Controllers
     public class CleanersController : ControllerBase
     {
         private readonly AppDbContext _context;
-
-        public CleanersController(AppDbContext context)
+        private readonly IWebHostEnvironment _env;
+        public CleanersController(AppDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
+        }
+
+        [HttpPost("{id}")]
+        public async Task<IActionResult> SaveImage(int id, IFormFile image)
+        {
+            // Найти объект по Id
+            var asset = await _context.Cleaners.FindAsync(id);
+            if (asset == null)
+            {
+                return NotFound();
+            }
+            // Путь к папке wwwroot/Images
+            var imagesPath = Path.Combine(_env.WebRootPath, "Images");
+            // получить случайное имя файла
+            var randomName = Path.GetRandomFileName();
+            // получить расширение в исходном файле
+            var extension = Path.GetExtension(image.FileName);
+            // задать в новом имени расширение как в исходном файле
+            var fileName = Path.ChangeExtension(randomName, extension);
+            // полный путь к файлу
+            var filePath = Path.Combine(imagesPath, fileName);
+            // создать файл и открыть поток для записи
+            using var stream = System.IO.File.OpenWrite(filePath);
+            // скопировать файл в поток
+            await image.CopyToAsync(stream);
+            // получить Url хоста
+            var host = "https://" + Request.Host;
+            // Url файла изображения
+            var url = $"{host}/Images/{fileName}";
+            // Сохранить url файла в объекте
+            asset.Image = url;
+            await _context.SaveChangesAsync();
+            return Ok();
         }
 
         // GET: api/Cleaners
@@ -34,7 +68,7 @@ namespace Naydovich.Api.Controllers
             if (pageNo > totalPages)
                 pageNo = totalPages;
 
-            // Создание объекта ProductListModel с нужной страницей данных
+            // Создание объекта CleanerListModel с нужной страницей данных
             var listData = new CleanerListModel<Cleaner>()
             {
                 Items = await data.Skip((pageNo - 1) * pageSize).Take(pageSize).ToListAsync(),
