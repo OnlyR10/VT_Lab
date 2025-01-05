@@ -1,0 +1,54 @@
+﻿@using Naydovich.Blazor.Services
+@using Naydovich.Domain.Entities
+@implements IDisposable
+@rendermode InteractiveServer
+
+<h4>Тест</h4>
+
+@if (CleanerService.Cleaners != null && CleanerService.Cleaners.Count() != 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Название</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in CleanerService.Cleaners)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <button class="btn btn-outline-dark" @onclick="@(()=>OnCleanerSelected(item.Id))">
+                            Подробно
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    [CascadingParameter]
+    public ICleanerService<Cleaner> CleanerService { get; set; }
+    // public Cleaner SelectedCleaner { get; set; }
+    [Parameter]
+    public EventCallback<int> CleanerSelected { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        CleanerService.ListChanged += StateHasChanged;
+        //await CleanerService.GetCleaners();
+    }
+
+    public async void OnCleanerSelected(int id)
+    {
+        await CleanerSelected.InvokeAsync(id);
+    }
+
+    public void Dispose()
+    {
+        CleanerService.ListChanged -= StateHasChanged;
+    }
+}

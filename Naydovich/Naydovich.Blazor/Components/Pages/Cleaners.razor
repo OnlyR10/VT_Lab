@@ -1,0 +1,28 @@
+﻿@page "/cleaners"
+@using Naydovich.Blazor.Components.CleanerComponents
+@using Naydovich.Blazor.Services
+@using Naydovich.Domain.Entities
+@rendermode InteractiveServer
+
+
+<CascadingValue Value="CleanerService">
+    <CleanerList CleanerSelected="ShowDetails" />
+    <Pager />
+</CascadingValue>
+<CleanerDetails Cleaner="SelectedCleaner" />
+
+@code {
+    [Inject] ICleanerService<Cleaner> CleanerService { get; set; }
+    [Parameter]
+    public Cleaner SelectedCleaner { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await CleanerService.GetCleaners();
+    }
+    
+    void ShowDetails(int id)
+    {
+        SelectedCleaner = CleanerService.Cleaners.First(d => d.Id == id);
+    }
+}

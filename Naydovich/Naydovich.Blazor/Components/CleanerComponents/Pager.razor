@@ -1,0 +1,59 @@
+﻿@implements IDisposable
+@rendermode InteractiveServer
+
+@using Naydovich.Blazor.Services
+@using Naydovich.Domain.Entities
+
+<div class="btn-group" role="group" aria-label="Pager">
+    <!-- Кнопка Previous -->
+    <button type="button" class="btn btn-outline-primary @(previousEnabled?"":"disabled")" @onclick="@(e=>OnPageSelected(CleanerService.CurrentPage-1))">
+        <span aria-hidden="true">&laquo;</span>
+    </button>
+
+    @for (int i = 1; i <= CleanerService.TotalPages; i++)
+    {
+        var temp = i;
+
+        <button type="button" class="btn btn-outline-primary @(IsActive(temp)?"active":"")" @onclick="@(e=>OnPageSelected(temp))">
+            @temp
+        </button>
+    }
+
+    <!-- Кнопка Next -->
+    <button type="button" class="btn btn-outline-primary @(nextEnabled?"":"disabled")" @onclick="@(e=>OnPageSelected(CleanerService.CurrentPage+1))">
+        <span aria-hidden="true">&raquo;</span>
+    </button>
+</div>
+
+@code {
+    [CascadingParameter]
+    public ICleanerService<Cleaner> CleanerService{ get; set; }
+
+    protected override void OnInitialized()
+    {
+        CleanerService.ListChanged += StateHasChanged;
+    }
+
+    // Кнопка Previous доступна?
+    bool previousEnabled { get => CleanerService.CurrentPage != 1; }
+
+    // Кнопка Next доступна
+    bool nextEnabled
+    {
+        get => CleanerService.CurrentPage != CleanerService.TotalPages;
+    }
+
+    // Это текущая страница?
+    bool IsActive(int pageNo) => pageNo == CleanerService.CurrentPage;
+
+    // Обработчик клика кнопки
+    async void OnPageSelected(int pageNo)
+    {
+        await CleanerService.GetCleaners(pageNo);
+    }
+
+    public void Dispose()
+    {
+        CleanerService.ListChanged -= StateHasChanged;
+    }
+}

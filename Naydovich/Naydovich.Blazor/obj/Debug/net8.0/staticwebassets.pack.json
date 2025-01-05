@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Naydovich.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Naydovich.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Naydovich.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Naydovich.Blazor.props",
+      "PackagePath": "build\\Naydovich.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Naydovich.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\Naydovich.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Naydovich.Blazor.props",
+      "PackagePath": "buildTransitive\\Naydovich.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

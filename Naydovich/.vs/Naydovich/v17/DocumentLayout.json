@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "D:\\Studies\\WebTech\\Lab\\Naydovich\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AE7F06B4-8435-4D83-96F4-0B41F867E2C1}|Naydovich.Blazor\\Naydovich.Blazor.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7F06B4-8435-4D83-96F4-0B41F867E2C1}|Naydovich.Blazor\\Naydovich.Blazor.csproj|solutionrelative:naydovich.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|solutionrelative:naydovich.api\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9108B156-14B7-4733-8CF5-0E19130E3FCB}|Naydovich.Api\\Naydovich.Api.csproj|solutionrelative:naydovich.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|solutionrelative:naydovich.domain\\models\\responsedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.domain\\entities\\cleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|solutionrelative:naydovich.domain\\entities\\cleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|solutionrelative:naydovich.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.domain\\models\\cleanerlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEC9949F-C1AF-4D99-9D6F-8D672B9F356F}|Naydovich.Domain\\Naydovich.Domain.csproj|solutionrelative:naydovich.domain\\models\\cleanerlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\areas\\admin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\memorycleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\memorycleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\icleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\icleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.ui\\services\\apicleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E31412E-C006-4E42-AD69-434FA3396548}|Naydovich.UI\\Naydovich.UI.csproj|solutionrelative:naydovich.ui\\services\\apicleanerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE7F06B4-8435-4D83-96F4-0B41F867E2C1}|Naydovich.Blazor\\Naydovich.Blazor.csproj|d:\\studies\\webtech\\lab\\naydovich\\naydovich.blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE7F06B4-8435-4D83-96F4-0B41F867E2C1}|Naydovich.Blazor\\Naydovich.Blazor.csproj|solutionrelative:naydovich.blazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,22 +21,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 575,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 672,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Naydovich.Api\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Naydovich.Api\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:07:03.217Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -80,118 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Naydovich.Blazor\\Program.cs",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\Program.cs",
+              "RelativeToolTip": "Naydovich.Blazor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T18:36:19.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "Naydovich.Api\\Data\\DbInitializer.cs",
               "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Api\\Data\\DbInitializer.cs",
               "RelativeToolTip": "Naydovich.Api\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFoAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:07:03.537Z",
+              "WhenOpened": "2025-01-05T18:36:14.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ResponseData.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Models\\ResponseData.cs",
-              "RelativeDocumentMoniker": "Naydovich.Domain\\Models\\ResponseData.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Models\\ResponseData.cs",
-              "RelativeToolTip": "Naydovich.Domain\\Models\\ResponseData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:06:57.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cleaner.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Entities\\Cleaner.cs",
-              "RelativeDocumentMoniker": "Naydovich.Domain\\Entities\\Cleaner.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Entities\\Cleaner.cs",
-              "RelativeToolTip": "Naydovich.Domain\\Entities\\Cleaner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:06:55.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Naydovich.Domain\\Entities\\Category.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Naydovich.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:06:55.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CleanerListModel.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Models\\CleanerListModel.cs",
-              "RelativeDocumentMoniker": "Naydovich.Domain\\Models\\CleanerListModel.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Domain\\Models\\CleanerListModel.cs",
-              "RelativeToolTip": "Naydovich.Domain\\Models\\CleanerListModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T14:06:53.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Areas\\Admin\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Naydovich.UI\\Areas\\Admin\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Naydovich.Blazor\\Components\\App.razor",
+              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.Blazor\\Components\\App.razor",
+              "RelativeToolTip": "Naydovich.Blazor\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T09:31:57.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MemoryCleanerService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\MemoryCleanerService.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:31:27.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICleanerService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ICleanerService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\ICleanerService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ICleanerService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\ICleanerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:31:06.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApiCleanerService.cs",
-              "DocumentMoniker": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "RelativeDocumentMoniker": "Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "ToolTip": "D:\\Studies\\WebTech\\Lab\\Naydovich\\Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "RelativeToolTip": "Naydovich.UI\\Services\\ApiCleanerService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowBcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T09:24:54.249Z",
+              "WhenOpened": "2025-01-05T18:30:48.816Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Naydovich.Blazor/1.0.0": {
+        "dependencies": {
+          "Naydovich.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Naydovich.Blazor.dll": {}
+        }
+      },
+      "Naydovich.Domain/1.0.0": {
+        "runtime": {
+          "Naydovich.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Naydovich.Blazor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Naydovich.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
